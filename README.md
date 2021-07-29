@@ -20,7 +20,7 @@ One Paragraph of project description goes here
   - [License](#license)
   - [Acknowledgments](#acknowledgments)
   - [Additional Information](#additional-information)
-  
+
 ## Getting Started
 
 These instructions highlighted in this section will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment section for notes on how to deploy the project on a live system
@@ -38,6 +38,7 @@ Example: eBillsPay depends on NIP, Authserve as a dependency for most APIs
 ### Setup
 
 This section should describe the step-by-step guide on how the application is setup on a local machine/development environment.
+E.g. Run a script to setup and seed the database (if necessary)
 
 ## Screenshot(s)
 
@@ -50,7 +51,6 @@ Example
 
  Example:
 ```
-
 /
 ├─ src/
 │  ├─ assets/        # Assets
@@ -94,7 +94,11 @@ This section should explain how to run the automated tests for this application.
 
 ## Deployment
 
-This section should describe how to deploy this on a live system. The details of Jenkins configuration for the repo should be stated.
+This section should describe how to deploy this on a live system. The details of Jenkins configuration for the repo should be stated. Include:
+
+- Docker commands that should be run.
+- How to setup and seed the database (if required).
+- Commands to run the tests.
 
 ## Contributing
 
